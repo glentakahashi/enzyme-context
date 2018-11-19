@@ -4,5 +4,5 @@
 module.exports = {
   projects: ['<rootDir>/packages/*'],
 
-  collectCoverageFrom: ['<rootDir>/src/**/*.{ts,tsx}'],
+  coveragePathIgnorePatterns: ['/node_modules/', '<rootDir>/dist/'],
 };
